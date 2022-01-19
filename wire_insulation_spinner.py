@@ -15,7 +15,7 @@ total_height = thickness*len(cyl_diameters)
 
 
 # Distance between flats of hex bolt head
-bolt_head_width = 24.5
+bolt_head_width = 11.1125 + 0.5 # 7/16"
 # We need the distance between points since the release version of
 # cadquery doesn't support circumscribed polygons apparently
 _side_length = (bolt_head_width/2)/sin(pi/3)
