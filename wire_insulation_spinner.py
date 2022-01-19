@@ -22,7 +22,7 @@ _side_length = (bolt_head_width/2)/sin(pi/3)
 _inscribed_width = _side_length*(1 + 2*cos(pi/3))
 
 # Drive shaft dimensions
-shaft_diameter = 16.5
+shaft_diameter = 6.35 # 1/4"-20 in mm 
 shaft_length = 10
 
 
